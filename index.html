@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Переходько Денис | Портфоліо</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Переходько Денис</h1>
+            <p class="subtitle">Оператор з обробки інформації та ПЗ</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="about">
+            <h2>Про мене</h2>
+            <p>Студент Бахмутського центру професійно-технічної освіти. Спеціалізуюся на роботі з даними, налагодженні програмного забезпечення та створенні цифрового контенту.</p>
+        </section>
+
+        <section class="skills">
+            <h2>Навички</h2>
+            <ul>
+                <li>Адміністрування ОС Windows/Linux</li>
+                <li>Пакет Microsoft Office (Expert)</li>
+                <li>Основи веб-розробки (HTML/CSS)</li>
+                <li>Обробка графіки та медіа</li>
+                <li>Технічне обслуговування ПК</li>
+            </ul>
+        </section>
+
+        <section class="education">
+            <h2>Освіта</h2>
+            <div class="card">
+                <h3>Бахмутський ЦПТО</h3>
+                <p>Спеціальність: Оператор з обробки інформації та програмного забезпечення</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Контакти для зв'язку: <a href="mailto:denys@example.com">denys@example.com</a></p>
+            <p>&copy; 2024 Бахмут - Україна</p>
+        </div>
+    </footer>
+</body>
+</html>/* Основні налаштування */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Шапка */
+header {
+    background: #2c3e50;
+    color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* Секції */
+section {
+    background: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #2980b9;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+/* Навички */
+ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+ul li {
+    background: #ecf0f1;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+/* Футер */
+footer {
+    text-align: center;
+    padding: 30px 0;
+    font-size: 0.9rem;
+    color: #7f8c8d;
+}
+
+footer a {
+    color: #2980b9;
+    text-decoration: none;
+}
